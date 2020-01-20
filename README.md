@@ -13,3 +13,48 @@ npm install style-generator
 O pacote utiliza a função create para fazer o gereneciamento dos estilos que serão aplicados a um determinado componente. Para que isso ocorra deve-se primeiramente passar na chamada do componente por meio de props(utilizando Camel Case) os estilos CSS desejados. Logo após, no aquivo do componente é chamada a função create do objeto StyleGenerator, que receberá como parâmetro as props do componente e retornará assim um objeto que deverá ser inserido na propriedade style da tag alvo.
 
 # Exemplos
+
+MeuComponentePai.js
+
+```
+import React from 'react';
+import MeuComponentFilho from './meu-componente-filho.js'
+
+class MeuComponentePai extends React.Component{
+
+  render(){
+
+    return(
+      <MeuComponenteFilho border="1px solid #eaeaea"/>
+    )
+    
+  }
+  
+}
+
+export default MeuComponentePai;
+```
+
+MeuComponenteFilho.js
+
+```
+import React from 'react';
+import StyleGenerator from 'style-generator';
+
+class MeuComponenteFilho extends React.Component{
+
+  render(){
+
+    return(
+      <div style={StyleGenerator.create(this.props)}/>
+    )
+    
+  }
+  
+}
+
+export default MeuComponenteFilho;
+```
+
+
+
