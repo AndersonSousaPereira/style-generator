@@ -46,7 +46,7 @@ class MeuComponenteFilho extends React.Component{
   render(){
 
     return(
-      <div style={StyleGenerator.create(this.props)}/>
+      <div style={StyleGenerator.create(this.props)}></div>
     )
     
   }
