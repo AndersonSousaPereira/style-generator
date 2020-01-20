@@ -1,1 +1,1 @@
-# style-generator
+# Style Generator
