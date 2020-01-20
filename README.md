@@ -37,7 +37,7 @@ export default MeuComponentePai;
 
 MeuComponenteFilho.js
 
-```
+```JSX
 import React from 'react';
 import StyleGenerator from 'style-generator';
 
