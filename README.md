@@ -16,7 +16,7 @@ O pacote utiliza a função create para fazer o gereneciamento dos estilos que s
 
 MeuComponentePai.js
 
-```
+```JSX
 import React from 'react';
 import MeuComponentFilho from './meu-componente-filho.js'
 
