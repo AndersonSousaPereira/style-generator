@@ -25,7 +25,7 @@ class MeuComponentePai extends React.Component{
   render(){
 
     return(
-      <MeuComponenteFilho border="1px solid #eaeaea"/>
+      <MeuComponenteFilho borderWidth="1px" borderStyle="solid" borderColor="#eaeaea"/>
     )
     
   }
