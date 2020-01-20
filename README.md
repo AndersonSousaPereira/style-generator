@@ -10,7 +10,7 @@ npm install style-generator
 
 # Documentação
 
-O pacote utiliza a função create para fazer o gereneciamento dos estilos que serão aplicados a um determinado componente. Para que isso ocorra deve-se primeiramente passar na chamada do componente por meio de props(utilizando Camel Case) os estilos CSS desejados. Logo após, no aquivo do componente é chamada a função create do objeto StyleGenerator, que receberá como parâmetro as props do componente e retornará assim um objeto que deverá ser inserido na propriedade style da tag alvo.
+O pacote utiliza a função create para fazer o gerenciamento dos estilos que serão aplicados a um determinado componente. Para que isso ocorra deve-se primeiramente passar na chamada do componente por meio de props(utilizando Camel Case) os estilos CSS desejados. Logo após, no aquivo do componente é chamada a função create do objeto StyleGenerator, que receberá como parâmetro as props do componente e retornará assim um objeto que deverá ser inserido na propriedade style da tag alvo.
 
 # Exemplos
 
