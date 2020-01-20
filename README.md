@@ -4,7 +4,9 @@ Criado com o intuito de prover uma forma diferente de estilizar componentes em R
 
 # Instalação
 
+```
 npm install style-generator
+```
 
 # Documentação
 
